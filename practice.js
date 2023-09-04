@@ -19,4 +19,19 @@
         console.log(number + ' not even');
     }
 
+function sumTwo(num1, num2) {
+    return num1 + num2;
+}
+    console.log(sumTwo(9,2));
+
+function getSalesTax(cost, state) {
+    if(state === 'NY') {
+        multiplier = 1.04
+    } else if (state === 'CA')
+    {
+        multiplier = 1.0725
+    }
+    return cost * multiplier;
+}
+
 
