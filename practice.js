@@ -33,5 +33,8 @@ function getSalesTax(cost, state) {
     }
     return cost * multiplier;
 }
+console.log(getSalesTax('5', 'NY'));
+
+more javascript :)
 
 
