@@ -35,6 +35,7 @@ function getSalesTax(cost, state) {
 }
 console.log(getSalesTax('5', 'NY'));
 
-more javascript :)
+function mnemonicMachine(str1, str2, str3, str4) {
+}
 
 
