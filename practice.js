@@ -39,3 +39,13 @@ function mnemonicMachine(str1, str2, str3, str4) {
 }
 new javascript
 
+function getSalesTax(cost, state) {
+    if(state === 'NY') {
+        multiplier = 1.04
+    } else if (state === 'CA')
+    {
+        multiplier = 1.0725
+    }
+    return cost * multiplier;
+}
+console.log(getSalesTax('5', 'NY'));
