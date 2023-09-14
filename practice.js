@@ -50,4 +50,24 @@ function getSalesTax(cost, state) {
 }
 console.log(getSalesTax('5', 'NY'));
 
-skeyee
+function golfScore(strokes, par) {
+
+    let golfResult = '';
+
+    if(strokes += par) {
+        return 'Bogey!';
+    }
+    if(stokes -= par) {
+        return 'Birdie!';
+    }
+    if(strokes === par - 2) {
+        return 'Eagle!'
+    }
+    if(strokes === par) {
+        return 'Hole-in-one!'
+    }
+    return golfResult;
+}
+
+const golfScoreResult = golfScore('4,2');
+console.log(golfScoreResult);
