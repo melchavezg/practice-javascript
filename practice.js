@@ -71,3 +71,7 @@ function golfScore(strokes, par) {
 
 const golfScoreResult = golfScore('4,2');
 console.log(golfScoreResult);
+
+const anAdjective = "awesome!";
+let ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
