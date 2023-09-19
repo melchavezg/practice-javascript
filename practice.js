@@ -75,3 +75,8 @@ console.log(golfScoreResult);
 const anAdjective = "awesome!";mm
 let ourStr = "freeCodeCamp is ";
 ourStr += anAdjective;
+
+// Change code below this line
+const someAdjective = "so much fun!";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
