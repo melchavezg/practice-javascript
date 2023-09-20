@@ -76,7 +76,13 @@ const anAdjective = "awesome!";mm
 let ourStr = "freeCodeCamp is ";
 ourStr += anAdjective;
 
-// Change code below this line
+
 const someAdjective = "so much fun!";
 let myStr = "Learning to code is ";
 myStr += someAdjective;
+
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName;
