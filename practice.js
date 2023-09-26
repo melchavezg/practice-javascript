@@ -86,4 +86,6 @@ const lastName = "Lovelace";
 
 lastNameLength = lastName.length;
 
-new
+const lastName = "Lovelace";
+
+const thirdLetterOfLastName = lastName[2];
