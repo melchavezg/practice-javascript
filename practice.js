@@ -93,4 +93,6 @@ const thirdLetterOfLastName = lastName[2];
 const lastName = "Lovelace";
 
 // Only change code below this line
-const lastLetterOfLastName = lastName;
+const lastLetterOfLastName = lastName[lastName.length - 1];
+
+const myArray = [["Lakers", 50],["Bulls", 76]];
