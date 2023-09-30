@@ -96,3 +96,4 @@ const lastName = "Lovelace";
 const lastLetterOfLastName = lastName[lastName.length - 1];
 
 const myArray = [["Lakers", 50],["Bulls", 76]];
+new
