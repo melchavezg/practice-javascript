@@ -105,3 +105,30 @@ const myArray = [
 ];
 
 const myData = myArray[2][1];
+
+//push,pop,shift,unshift
+
+.push = "adds to end of array";
+
+.pop = "removes from end of the array";
+
+.shift = "removed from the beginning of the array";
+
+.unshift = "adds to the beginning of the array";
+
+let sum = 0;
+
+function addThree() {
+    sum = sum + 3;
+}
+
+// Only change code below this line
+function addFive() {
+    sum = sum + 5;
+}
+
+// Only change code above this line
+
+addThree();
+addFive();
+
