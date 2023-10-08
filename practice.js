@@ -148,6 +148,11 @@ function nextInLine(arr, item) {
     return item;
     // Only change code above this line
 }
+//Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
+//
+// Add the number to the end of the array, then remove the first element of the array.
+//
+// The nextInLine function should then return the element that was removed.
 
 // Setup
 let testArr = [1, 2, 3, 4, 5];
@@ -157,3 +162,18 @@ console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 
+//Comparison with the Equality Operator
+
+1   ==  1  // true
+1   ==  2  // false
+1   == '1' // true
+"3" ==  3  // true
+
+function testStrict(val) {
+    if (val === 7) { // Change this line
+        return "Equal";
+    }
+    return "Not Equal";
+}
+
+testStrict(10);
