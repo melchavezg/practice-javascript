@@ -350,7 +350,9 @@ const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey"
 
 function golfScore(par, strokes) {
     if (par > strokes) {
-        return ""
+        return "eagle"
+    } else if (par >= strokes){
+        return "birdie"
     }
 
 
