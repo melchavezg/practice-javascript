@@ -355,6 +355,8 @@ function golfScore(par, strokes) {
         return "birdie"
     } else if (par <= strokes) {
         return "Hole in one"
+    } else if (par < strokes ) {
+        return
     }
 
 
