@@ -358,6 +358,7 @@ function golfScore(par, strokes) {
     } else if (par < strokes ) {
         return
     }
+    golfScore(6, 7);
 
 
     return "Change Me";
