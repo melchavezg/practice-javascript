@@ -365,4 +365,4 @@ function golfScore(par, strokes) {
 }
 
 golfScore(5, 4);
-no nwew code
+another codeless day
