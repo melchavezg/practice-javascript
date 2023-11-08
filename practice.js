@@ -371,3 +371,14 @@ function golfScore(par, strokes) {
 }
 
 golfScore(5, 4);
+
+
+function caseInSwitch(val) {
+    let answer = "";
+
+
+
+    return answer;
+}
+
+caseInSwitch(1);
