@@ -382,3 +382,12 @@ function caseInSwitch(val) {
 }
 
 caseInSwitch(1);
+
+//ex. switch (fruit) {
+//   case "apple":
+//     console.log("The fruit is an apple");
+//     break;
+//   case "orange":
+//     console.log("The fruit is an orange");
+//     break;
+// }
