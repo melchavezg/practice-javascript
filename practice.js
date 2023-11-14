@@ -375,7 +375,6 @@ golfScore(5, 4);
 
 function caseInSwitch(val) {
     let answer = "";
-no new code
 
 
     return answer;
@@ -391,6 +390,17 @@ caseInSwitch(1);
 //     console.log("The fruit is an orange");
 //     break;
 // }
+function caseInSwitch(val) {
+    let answer = "";
+    // Only change code below this line
+
+
+
+    // Only change code above this line
+    return answer;
+}
+
+caseInSwitch(1);
 let boolean1 = true, boolean2 = true;
 // let boolean1 = true, boolean2 = false;
 // let boolean1 = false, boolean2 = true;
