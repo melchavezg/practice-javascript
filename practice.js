@@ -416,4 +416,10 @@ if (boolean1 && boolean2) {
 } else {
     result = 'none';
 }
-no new code today
+let word = 'carrots';
+// let word = 'pacific';
+// let word = 'perfecto';
+// let word = 'perfect';
+// let word = 'perfection';
+
+let lastWord;
