@@ -423,3 +423,16 @@ let word = 'carrots';
 // let word = 'perfection';
 
 let lastWord;
+if(word[0] === 'p' && word.length === 10) {
+    lastWord = word.toUpperCase();
+} else {
+    lastWord = word;
+}
+let lastWord;
+// Function declaration
+function status() {
+    console.log("I am learning to program using functions");
+}
+
+// Function call
+status(); // Without this, nothing will print to the console
