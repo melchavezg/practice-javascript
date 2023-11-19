@@ -436,3 +436,23 @@ function status() {
 
 // Function call
 status(); // Without this, nothing will print to the console
+
+//Declare a function sayHello that does the following:
+    //sayHello should have no parameters
+//sayHello should return the string ’Hey There’
+//Example
+//sayHello() // => returns "Hey There"
+//Declare a function called sayHelloTo that does the following:
+    //sayHelloTo receives a string, name, as a parameter.
+    //sayHelloTo returns the string ’Hello’ concatenated with the name and an exclamation mark.//
+function sayHello() {
+    return 'Hey There';
+}
+console.log(sayHello());
+
+function sayHelloTo(name) {
+    var greeting = 'Hello ' + name + '!';
+    return greeting;
+}
+
+console.log(sayHelloTo("Melissa"));
