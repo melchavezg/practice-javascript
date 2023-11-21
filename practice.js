@@ -456,3 +456,17 @@ function sayHelloTo(name) {
 }
 
 console.log(sayHelloTo("Melissa"));
+
+let Name = 'Joe';
+
+// WRITE YOUR CODE HERE
+function greetByDefault(firstName, lastName) {
+    if(!lastName) {
+        lastName = 'Doe';
+    }
+    var greeting = 'Hi' + ' ' + firstName + ' ' + lastName + '!';
+    return greeting;
+}
+
+console.log(greetByDefault('John', 'Smith'));
+console.log(greetByDefault('Alice'));
