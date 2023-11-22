@@ -470,3 +470,6 @@ function greetByDefault(firstName, lastName) {
 
 console.log(greetByDefault('John', 'Smith'));
 console.log(greetByDefault('Alice'));
+//if(lastName === undefined) {
+//   // set the lastName equal to 'Doe'
+// }
