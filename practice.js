@@ -473,3 +473,12 @@ console.log(greetByDefault('Alice'));
 //if(lastName === undefined) {
 //   // set the lastName equal to 'Doe'
 // }
+
+let price = 100;
+
+// WRITE YOUR CODE HERE
+function getSalesTax(cost, state) {
+    if (state === 'NY') {
+
+    }
+}
