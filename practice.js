@@ -489,3 +489,14 @@ function mnemonicMachine (str1, str2, str3, str4) {
 }
 // FREEZE CODE BEGIN
 module.exports = mnemonicMachine;
+function mnemonicMachine (str1, str2, str3, str4) {
+    let mnemonic = ''
+    if (str1 !== undefined) {
+        mnemonic += str1[0]
+    } if (str2 !== undefined) {
+        mnemonic += str2[0]
+    } if (str3 !== undefined) {
+        mnemonic += str3[0]
+    }
+}
+new
