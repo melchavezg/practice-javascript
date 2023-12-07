@@ -499,4 +499,4 @@ function mnemonicMachine (str1, str2, str3, str4) {
         mnemonic += str3[0]
     }
 }
-new new
+new new new
